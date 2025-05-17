@@ -1,0 +1,15 @@
+{
+  "name": "dc-blog-card",
+  "version": "1.0.0",
+  "description": "yeah!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./scss/style.scss style.css"
+  },
+  "author": "CJ-Cepe",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.89.0"
+  }
+}
