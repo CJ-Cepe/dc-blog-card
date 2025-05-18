@@ -12,35 +12,40 @@
     />
 
     <title>devChallenges.io | Minimal Blog Card</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
 
     <main>
       <article class="card">
-        <figure>
-          <img src="resources/image.png" alt="A small cactus in a terracotta pot against a pastel background" class="image"/>
-        </figure>
-
-        <header>
+        <picture>
+          <source srcset="resources/Cactus@2x.jpg" media="(max-width: 600px)">
+          <img src="resources/Cactus.jpg" alt="A small cactus in a terracotta pot against a pastel background" class="image"/>
+        </picture>
+        
+        <div class="tag-container">
           <span class="tag">Design</span>
+        </div>
+
+        <div class="content">
           <h2 class="title">Embracing Minimalism</h2>
-        </header>
-
-        <p class="description">
-          From minimalist sculptures to minimalist paintings, 
-          this blog will inspire you to appreciate the beauty 
-          that lies in simplicity.
-        </p>
-
+          <p class="description">
+            From minimalist sculptures to minimalist paintings, 
+            this blog will inspire you to appreciate the beauty 
+            that lies in simplicity.
+          </p>
+        </div>
+        
+ 
         <footer>
           <p class="author">Annie Spratt</p>
         </footer>
       </article>
-    </main>
 
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>.
-    </div>
+      <div class="author-info">
+        Coded by <a href="#">Your Name Here</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>.
+      </div>
+    </main>
   </body>
 </html>
